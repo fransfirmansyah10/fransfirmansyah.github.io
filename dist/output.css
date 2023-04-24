@@ -990,10 +990,6 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-100 {
-  transition-duration: 100ms;
-}
-
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1118,11 +1114,6 @@ body {
 .before\:content-\[\'\'\]::before {
   --tw-content: '';
   content: var(--tw-content);
-}
-
-.hover\:bg-slate-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-r:hover {
