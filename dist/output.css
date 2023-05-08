@@ -871,6 +871,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -894,11 +899,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .pb-32 {
@@ -1100,6 +1100,31 @@ body {
 .hamburger-active > span:nth-child(3) {
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hidden1 {
+  opacity: 0;
+  filter: blur (5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.card:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.card:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.card:nth-child(4){
+  transition-delay: 600ms;
 }
 
 .before\:absolute::before {
@@ -1333,4 +1358,3 @@ body {
     width: 83.333333%;
   }
 }
-
