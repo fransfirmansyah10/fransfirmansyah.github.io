@@ -841,16 +841,16 @@ video {
   --tw-gradient-to-position:  ;
 }
 
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-contain {
   background-size: contain;
 }
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-fixed {
@@ -1242,12 +1242,6 @@ body {
 
 .group:hover .group-hover\:opacity-50 {
   opacity: 0.5;
-}
-
-@media (min-width: 640px) {
-  .sm\:bg-cover {
-    background-size: cover;
-  }
 }
 
 @media (min-width: 768px) {
