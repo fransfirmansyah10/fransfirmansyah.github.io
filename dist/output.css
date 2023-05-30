@@ -845,10 +845,6 @@ video {
   background-size: auto;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -1245,10 +1241,6 @@ body {
 }
 
 @media (min-width: 640px) {
-  .sm\:bg-auto {
-    background-size: auto;
-  }
-
   .sm\:bg-contain {
     background-size: contain;
   }
